@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+   
 }
 body{
     padding: 10px;
+    
 }
 .logo{
     width: 80px;
 }
-.imagem-dr{
+.starbucks{
     width: 300px;
 }
 .principal{
