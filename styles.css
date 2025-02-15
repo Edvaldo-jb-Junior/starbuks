@@ -2,34 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
-   
+    font-family: "Poppins", serif; 
 }
+
 body{
-    padding: 10px;
-    
+    padding: 10px;    
 }
+
 .logo{
     width: 80px;
 }
+
 .starbucks{
     width: 300px;
 }
+
 .principal{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .esquerda{
-    width: 40%;
+    width: 600px;
 }
+
 .direita{
-    width: 40%;
+    width: 600px;
     display: flex;
     justify-content: flex-end;
     padding-top: 60px;
 }
+
 h2{
     color: #333;
     font-size: 60px;
@@ -61,8 +66,8 @@ button{
    display: flex;
    justify-content: center;
    margin-top: -90px;
-    
 }
+
 .img-footer{
     width: 50px;
     cursor: pointer;
@@ -72,15 +77,170 @@ button{
 
 .img-footer:hover{
     transform: translateY(-25px);
-
 }
+
 .circulo{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #017143;
+    background: linear-gradient(to right, #93eea6,rgb(1, 70, 5) );
     top: 0;
     left: 0;
     clip-Path: circle(590px at right 680px);
     z-index: -1;
+}
+
+@media (max-width: 1290px){
+    .starbucks{
+        width: 360px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1050px){
+    .starbucks{
+        width: 300px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 920px){
+    .starbucks{
+        width: 500px;
+        margin-top: 100px;
+    }
+    .img-footer{
+        width: 70px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 830px){
+    .starbucks{
+        width: 370px;
+        margin-top: 140px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 770px){
+    .circulo{
+        clip-Path: circle(390px at right 590px);
+    }
+    .starbucks{
+        width: 320px;
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 550px){
+    .principal{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    span{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .circulo{
+        clip-Path: circle(300px at right 590px)  
+    }
+    .starbucks{
+        width: 230px;
+       margin-top: -10px;
+    }
+    .esquerda{
+        width: 100%;
+    }
+    .direita{
+        width: 100%;
+    }
+    .footer{
+        margin-top: -80px;
+    }
+    .img-footer{
+        width: 35px;
+    }
+}
+
+@media (max-width: 450px){
+    h2{
+        font-size: 45px;
+    }
+    span{
+        font-size: 50px;
+    }
+    .starbucks{
+        width: 230px;
+        margin-top: -20px;
+    }
+    .footer{
+        margin-top: 20px;
+    }
+    .img-footer{
+        width: 45px;
+    }
+    .circulo{
+        clip-Path: circle(300px at right 620px)  
+    }
+}
+
+@media (max-width: 420px){
+    h2{
+        font-size: 35px;
+    }
+    .starbucks{
+        margin-top: -10px;
+    }   
+}
+
+@media (max-width: 395px){
+    .starbucks{
+        width: 230px;
+    }
+    .footer{
+        margin-top: -35px
+    }
+}
+
+@media (max-width: 380px){
+    h2{
+        font-size: 25px;
+    }
+    span{
+        font-size: 35px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .circulo{
+        clip-Path: circle(300px at right 570px)  
+    }
+    .starbucks{
+        width: 180px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 365px){
+    .starbucks{
+        margin-top: -20px;
+        width: 210px;
+    }
+}
+
+@media (max-width: 345px){
+    .starbucks{
+        width: 230px;
+        margin-top:-10px;
+    }
+    .footer{
+        margin-top: 20px;
+    }
 }
