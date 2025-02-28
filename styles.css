@@ -181,7 +181,9 @@ button{
         margin-top: -20px;
     }
     .footer{
-        margin-top: 20px;
+        margin: -300px 0 0 -300px;
+        display: grid;
+        grid-template-columns: 80px;
     }
     .img-footer{
         width: 45px;
@@ -205,7 +207,7 @@ button{
         width: 230px;
     }
     .footer{
-        margin-top: -35px
+       margin: -350px 0 0 -300px
     }
 }
 
@@ -226,6 +228,9 @@ button{
         width: 180px;
         margin-top: -40px;
     }
+    .footer{
+        margin: -290px 0 0 -280px;
+    }
 }
 
 @media (max-width: 365px){
@@ -241,6 +246,6 @@ button{
         margin-top:-10px;
     }
     .footer{
-        margin-top: 20px;
+        margin: -290px 0 0 -270px;
     }
 }
