@@ -238,6 +238,9 @@ button{
         margin-top: -20px;
         width: 210px;
     }
+    .footer{
+        margin: -350px 0 0 -270px;
+    }
 }
 
 @media (max-width: 345px){
@@ -246,6 +249,6 @@ button{
         margin-top:-10px;
     }
     .footer{
-        margin: -290px 0 0 -270px;
+        margin: -350px 0 0 -270px;
     }
 }
